@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简介 - 张三</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f8ff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 20px 0;
+            border: 3px solid #4CAF50;
+        }
+        h1 {
+            color: #333;
+            margin: 10px 0;
+        }
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        li::before {
+            content: "• ";
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="your-photo.jpg" alt="个人照片" class="profile-img">
+            <h1>张三</h1>
+            <p>Web开发爱好者 | 人工智能探索者</p>
+        </header>
+
+        <section class="section">
+            <h2>关于我</h2>
+            <p>你好！我是张三，目前就读于XX大学计算机科学专业。热爱编程和技术创新，擅长Python和JavaScript开发，对人工智能领域有浓厚兴趣。喜欢学习新技术并通过项目实践提升技能。</p>
+        </section>
+
+        <section class="section">
+            <h2>技能</h2>
+            <ul>
+                <li>编程语言：Python, JavaScript, Java</li>
+                <li>前端技术：HTML5, CSS3, React</li>
+                <li>后端技术：Node.js, Django</li>
+                <li>数据库：MySQL, MongoDB</li>
+                <li>其他工具：Git, Docker, Linux</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>兴趣爱好</h2>
+            <ul>
+                <li>参加编程比赛和黑客马拉松</li>
+                <li>撰写技术博客</li>
+                <li>羽毛球运动</li>
+                <li>电子音乐制作</li>
+                <li>阅读科幻小说</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>联系方式</h2>
+            <ul>
+                <li>邮箱：<a href="mailto:zhangsan@example.com">zhangsan@example.com</a></li>
+                <li>GitHub：<a href="https://github.com/zhangsan" target="_blank">github.com/zhangsan</a></li>
+                <li>LinkedIn：<a href="https://linkedin.com/in/zhangsan" target="_blank">linkedin.com/in/zhangsan</a></li>
+                <li>电话：+86 138-1234-5678</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
